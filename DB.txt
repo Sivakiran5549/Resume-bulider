@@ -1,0 +1,19 @@
+create database resumebuilder;
+use resumebuilder;
+
+create table signup(username varchar(50) primary key,
+password varchar(50),
+full_name varchar(80),
+contact_no varchar(15),
+gender varchar(20),
+email varchar(50),
+address varchar(250),
+education_qualification1 varchar(300),
+education_qualification2 varchar(300),
+education_qualification3 varchar(300),
+education_qualification4 varchar(300));
+
+create table share(owner_name varchar(50), share_users varchar(50), sharing_resume varchar(50));
+
+
+
